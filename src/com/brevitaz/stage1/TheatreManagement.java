@@ -2,9 +2,12 @@ package com.brevitaz.stage1;
 
 public class TheatreManagement {
 	int hall[][];
-	int rowSize=7,colmSize=8,row,colm;
+
+	int rowSize,colmSize,row,colm;
 
 	public void createHall() {
+		rowSize=7;
+		colmSize=8;
 
 		hall = new int[(rowSize + 1)][(colmSize + 1)];
 
