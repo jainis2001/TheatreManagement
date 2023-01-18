@@ -6,6 +6,9 @@ import java.util.Scanner;
 public class TheatreManagement {
 	int hall[][];
 	int rowSize,colmSize,row,colm;
+	final String ANSI_RESET = "\u001B[0m";
+	final String ANSI_YELLOW = "\u001B[33m";
+	final String ANSI_GREEN = "\u001B[32m";
 
 	public int[][] getHall() {
 		return hall;
@@ -69,8 +72,13 @@ public class TheatreManagement {
 				{
 					System.out.print(hall[row][colm] + " ");
 				}
-				else {
-					System.out.print((char) hall[row][colm] + " ");
+				else if(hall[row][colm]=='B')
+				{
+					System.out.print(ANSI_GREEN+(char)hall[row][colm]+ANSI_RESET+" ");
+				}
+				else{
+					System.out.print((char)hall[row][colm]+" ");
+
 				}
 			}
 			System.out.println();
