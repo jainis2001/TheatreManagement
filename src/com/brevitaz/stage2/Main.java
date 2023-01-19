@@ -9,7 +9,7 @@ public class Main {
 		theatre.createHall();
 		tempRowSize=theatre.getHall().length-1;
 		tempColmSize=theatre.getHall()[0].length-1;
-		Statistics stat=new Statistics();
-		stat.getTotalIncome(tempRowSize,tempColmSize);
+//		Statistics stat=new Statistics();
+//		stat.getTotalIncome(tempRowSize,tempColmSize);
 	}
 }

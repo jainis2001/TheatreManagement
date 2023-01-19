@@ -1,29 +1,50 @@
 package com.brevitaz.stage2;
 
 
+import com.brevitaz.stage3.BookSeat;
+
+import java.awt.print.Book;
 
 public class Statistics {
-	int total,firstHalfRow,secondHalfRow,firstHalfCount,secondHalfCount;
-	public void getTotalIncome(int rowSize,int colmSize)
+	int[][] tempSeats;
+	private int firstHalfRow,secondHalfRow,firstHalfCount,secondHalfCount;
+	private int total,totalIncome;
+	private  float percentage;
+
+
+
+
+
+
+
+	public void getStatisticDetails(BookSeat _book,int[][] seats)
 	{
-//		System.out.println(rowSize+" "+colmSize);
-		total=rowSize*colmSize;
+		int rowCount=seats.length-1;
+		int colmCount= seats[0].length-1;
+
+		total=rowCount*colmCount;
 		if(total>0 &&total<60)
 		{
-			total=rowSize*(colmSize*10);
+			totalIncome=rowCount*(colmCount*10);
 		}
 		else{
-			firstHalfRow=rowSize/2;
-			secondHalfRow=rowSize-firstHalfRow;
+			firstHalfRow=rowCount/2;
+			secondHalfRow=rowCount-firstHalfRow;
 
-			firstHalfCount = firstHalfRow *(colmSize*10) ;
-			secondHalfCount=secondHalfRow*(colmSize*8) ;
-			total=firstHalfCount+secondHalfCount;
-
+			firstHalfCount = firstHalfRow *(colmCount*10) ;
+			secondHalfCount=secondHalfRow*(colmCount*8) ;
+			totalIncome=firstHalfCount+secondHalfCount;
 		}
-		System.out.println("\nTotal Income:\n$"+total);
+		percentage=((float)(_book.getNumOfTickets()*100))/total;
+
+
+
+		System.out.println("\nnumber of purchased tickets: $"+_book.getNumOfTickets());
+		System.out.printf("Percentage: %.2f",percentage);
+		System.out.println("%");
+		System.out.println("Current Income: $"+_book.getCurrentIncome());
+		System.out.println("Total Income: $"+totalIncome);
+		System.out.println();
 
 	}
-
-
 }
