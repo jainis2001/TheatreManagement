@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc23c879-ab3b-4e59-81a5-d92d8eb9deef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/brevitaz/stage3/BookSeat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/brevitaz/stage3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/brevitaz/stage4/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/brevitaz/stage1/TheatreManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brevitaz/stage1/TheatreManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/brevitaz/stage3/BookSeat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brevitaz/stage3/BookSeat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,7 @@
       <recent name="com.brevitaz.stage3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.brevitaz.stage3.Main">
+  <component name="RunManager" selected="Application.com.brevitaz.stage4.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="TheatreProject" />
@@ -99,8 +98,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.brevitaz.stage4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.brevitaz.stage4.Main" />
+      <module name="TheatreProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.brevitaz.stage4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.brevitaz.stage4.Main" />
         <item itemvalue="Application.com.brevitaz.stage3.Main" />
         <item itemvalue="Application.com.brevitaz.stage2.Main" />
         <item itemvalue="Application.com.brevitaz.stage1.Main" />
@@ -117,6 +130,14 @@
       <option name="presentableId" value="Default" />
       <updated>1674044443006</updated>
     </task>
+    <task id="LOCAL-00001" summary="stage 3: commited">
+      <created>1674049277384</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674049277384</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,5 +150,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="stage 3: commited" />
+    <option name="LAST_COMMIT_MESSAGE" value="stage 3: commited" />
   </component>
 </project>

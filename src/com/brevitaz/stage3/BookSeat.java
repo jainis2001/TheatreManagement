@@ -82,9 +82,6 @@ public class BookSeat{
 			System.err.println("Something went wrong..");
 			System.out.println("Enter again");
 			getBooked(seats);
-
 		}
-
-
 	}
 }
