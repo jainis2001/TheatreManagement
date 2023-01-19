@@ -31,11 +31,14 @@ public class BookSeat{
 	public void setPricegt60fscndhalf(int pricegt60fscndhalf) {
 		this.pricegt60fscndhalf = pricegt60fscndhalf;
 	}
+
+	Scanner scan=null;
+
 	public void getBooked(int[][] seats)
 	{
-		Scanner scan=new Scanner(System.in);
-
+		scan=new Scanner(System.in);
 		try{
+
 			System.out.println("Enter number of row:");
 			row =scan.nextInt();
 			System.out.println("Enter seat number in "+(row)+" row:");
@@ -60,13 +63,13 @@ public class BookSeat{
 					else if(row>firstHalfRow) {
 						ticketPrice=pricegt60fscndhalf;
 					}
-
 				}
 				System.out.println("\nTicket Price:\n$"+ticketPrice);
 
 			}
 			else{
 				System.err.println("row and seat should be till "+rowSize+" and "+colmSize);
+				scan.reset();
 				getBooked(seats);
 			}
 			seats[row][colm]='B';
@@ -75,12 +78,14 @@ public class BookSeat{
 		{
 			System.err.println("Only Integer Input Allowed");
 			System.out.println("Enter again");
+			scan.reset();
 			getBooked(seats);
 		}
 		catch (Exception e)
 		{
 			System.err.println("Something went wrong..");
 			System.out.println("Enter again");
+			scan.reset();
 			getBooked(seats);
 		}
 	}
