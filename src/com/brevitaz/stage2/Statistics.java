@@ -24,4 +24,6 @@ public class Statistics {
 		System.out.println("\nTotal Income:\n$"+total);
 
 	}
+
+
 }
