@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc23c879-ab3b-4e59-81a5-d92d8eb9deef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/brevitaz/stage5/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/brevitaz/stage3/BookSeat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brevitaz/stage3/BookSeat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/brevitaz/stage4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brevitaz/stage4/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="dc23c879-ab3b-4e59-81a5-d92d8eb9deef" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,9 +117,9 @@
       <list>
         <item itemvalue="Application.com.brevitaz.stage4.Main" />
         <item itemvalue="Application.com.brevitaz.stage3.Main" />
-        <item itemvalue="Application.B" />
         <item itemvalue="Application.com.brevitaz.stage2.Main" />
         <item itemvalue="Application.com.brevitaz.stage1.Main" />
+        <item itemvalue="Application.B" />
       </list>
     </recent_temporary>
   </component>
