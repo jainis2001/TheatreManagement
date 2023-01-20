@@ -11,6 +11,7 @@ public class Main {
 	private TheatreManagement theatre=new TheatreManagement();
 	private boolean trigger=true;
 	void menu(){
+		//comment
 		int choice=0;
 		scanner=new Scanner(System.in);
 		if(trigger)
