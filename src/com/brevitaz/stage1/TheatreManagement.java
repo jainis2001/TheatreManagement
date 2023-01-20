@@ -32,8 +32,8 @@ public class TheatreManagement {
 				for (row = 0; row < rowSize + 1; row++) {
 					for (colm = 0; colm < (colmSize + 1); colm++) {
 						if (row == 0) {
-							int temp = (colm == 0) ? ' ' : colm;
-							hall[row][colm] = temp;
+							hall[row][colm] = (colm == 0) ? ' ' : colm;
+
 						} else if (colm == 0) {
 							hall[row][colm] = row;
 						} else {
@@ -78,7 +78,6 @@ public class TheatreManagement {
 				}
 				else{
 					System.out.print((char)hall[row][colm]+" ");
-
 				}
 			}
 			System.out.println();
