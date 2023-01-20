@@ -55,7 +55,7 @@ public class Statistics {
 		}
 		percentage=((float)numOfTickets*100)/totalRoomSeats;
 
-		System.out.println("Number of purchased tickets $" + numOfTickets);
+		System.out.println("Number of purchased tickets: " + numOfTickets);
 		System.out.printf("Percentage :%.2f", percentage);
 		System.out.println("%");
 

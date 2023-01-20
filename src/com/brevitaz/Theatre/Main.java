@@ -16,7 +16,7 @@ public class Main {
             theatre.initRoom();
         }
 
-        while(true){
+        do{
             try{
                 System.out.println("1. Show the seats");
                 System.out.println("2. Buy a ticket");
@@ -38,7 +38,7 @@ public class Main {
                         stat.getStatisticDetails(theatre.getRoom());
                         break;
                     case 0:
-                        System.exit(0);
+                        break;
                     default:
                         System.out.println("Invalid choice:");
                 }
@@ -50,7 +50,7 @@ public class Main {
                 menu();
             }
 
-        }
+        }while(choice !=0);
 
     }
 

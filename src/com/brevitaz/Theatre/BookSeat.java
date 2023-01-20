@@ -54,7 +54,7 @@ public class BookSeat{
 		}
 		catch (IndexOutOfBoundsException bound)
 		{
-			System.err.println("row and seat should be till "+rowSize+" and "+colmSize);
+			System.err.println("row and seat should be till 1 to "+rowSize+" and "+colmSize);
 			System.out.println("Enter again");
 			scan.reset();
 			getBooked(seats);

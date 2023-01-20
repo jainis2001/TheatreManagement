@@ -1,0 +1,119 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"dc23c879-ab3b-4e59-81a5-d92d8eb9deef\" name=\"Changes\" comment=\"\">\n      <change afterPath=\"$PROJECT_DIR$/src/com/brevitaz/stage3/BookSeat.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/com/brevitaz/stage3/Main.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/com/brevitaz/stage1/TheatreManagement.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/com/brevitaz/stage1/TheatreManagement.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"stage2\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2KV0SBajbp2Kj4bKrfAmgbTaiqX\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n    <option name=\"showVisibilityIcons\" value=\"true\" />\n    <option name=\"sortByType\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;\n  }\n}</component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\n      <recent name=\"com.brevitaz.stage3\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"Application.com.brevitaz.stage3.Main\">\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"Main\" />\n      <module name=\"TheatreProject\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"com.brevitaz.stage1.Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.brevitaz.stage1.Main\" />\n      <module name=\"TheatreProject\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"com.brevitaz.stage1.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"com.brevitaz.stage2.Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.brevitaz.stage2.Main\" />\n      <module name=\"TheatreProject\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"com.brevitaz.stage2.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"com.brevitaz.stage3.Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.brevitaz.stage3.Main\" />\n      <module name=\"TheatreProject\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"com.brevitaz.stage3.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Application.com.brevitaz.stage3.Main\" />\n        <item itemvalue=\"Application.com.brevitaz.stage2.Main\" />\n        <item itemvalue=\"Application.com.brevitaz.stage1.Main\" />\n        <item itemvalue=\"Application.Main\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"dc23c879-ab3b-4e59-81a5-d92d8eb9deef\" name=\"Changes\" comment=\"\" />\n      <created>1674044443006</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1674044443006</updated>\n    </task>\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 0dc3c0f9898366773c0dbbc04826ba62fd2c5d18)
++++ b/.idea/workspace.xml	(date 1674114026207)
+@@ -5,10 +5,10 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="dc23c879-ab3b-4e59-81a5-d92d8eb9deef" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/src/com/brevitaz/stage3/BookSeat.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/com/brevitaz/stage3/Main.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/com/brevitaz/stage5/Main.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/com/brevitaz/stage1/TheatreManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brevitaz/stage1/TheatreManagement.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/com/brevitaz/stage3/BookSeat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brevitaz/stage3/BookSeat.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/com/brevitaz/stage4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brevitaz/stage4/Main.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -25,7 +25,7 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="stage2" />
++        <entry key="$PROJECT_DIR$" value="stage4" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -52,10 +52,16 @@
+       <recent name="com.brevitaz.stage3" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Application.com.brevitaz.stage3.Main">
+-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="Main" />
++  <component name="RunManager" selected="Application.com.brevitaz.stage4.Main">
++    <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.brevitaz.stage4.B" />
+       <module name="TheatreProject" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.brevitaz.stage4.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+@@ -92,6 +98,19 @@
+       <extension name="coverage">
+         <pattern>
+           <option name="PATTERN" value="com.brevitaz.stage3.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="com.brevitaz.stage4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.brevitaz.stage4.Main" />
++      <module name="TheatreProject" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.brevitaz.stage4.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -101,10 +120,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Application.com.brevitaz.stage4.Main" />
+         <item itemvalue="Application.com.brevitaz.stage3.Main" />
++        <item itemvalue="Application.B" />
+         <item itemvalue="Application.com.brevitaz.stage2.Main" />
+         <item itemvalue="Application.com.brevitaz.stage1.Main" />
+-        <item itemvalue="Application.Main" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -117,6 +137,21 @@
+       <option name="presentableId" value="Default" />
+       <updated>1674044443006</updated>
+     </task>
++    <task id="LOCAL-00001" summary="stage 3: commited">
++      <created>1674049277384</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1674049277384</updated>
++    </task>
++    <task id="LOCAL-00002" summary="stage 4: commited">
++      <created>1674103169908</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1674103169908</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -130,4 +165,9 @@
+       </map>
+     </option>
+   </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="stage 3: commited" />
++    <MESSAGE value="stage 4: commited" />
++    <option name="LAST_COMMIT_MESSAGE" value="stage 4: commited" />
++  </component>
+ </project>
+\ No newline at end of file
