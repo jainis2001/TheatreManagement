@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc23c879-ab3b-4e59-81a5-d92d8eb9deef" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/brevitaz/Theatre/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brevitaz/Theatre/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="dc23c879-ab3b-4e59-81a5-d92d8eb9deef" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +12,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/com/brevitaz/Theatre/TheatreManagement.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2KV0SBajbp2Kj4bKrfAmgbTaiqX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -23,13 +24,13 @@
     <option name="showVisibilityIcons" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.brevitaz.Theatre.Main" />

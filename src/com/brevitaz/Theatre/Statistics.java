@@ -61,7 +61,7 @@ public class Statistics {
 
 	}
 
-	//getCurrentIncome() will count the total earned income after booked seats
+	//getCurrentIncome() will count the total earned income after booked seats.
 	public void getCurrentIncome(){
 		int priceLS60 = 10;
 		int priceGT60FirstHalf = 10;
