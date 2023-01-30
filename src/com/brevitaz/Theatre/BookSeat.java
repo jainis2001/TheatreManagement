@@ -7,54 +7,65 @@ public class BookSeat {
 	private int colmSize;
 	private int ticketPrice;
 	private int row, colm;
-	private char seats[][];
-	private Scanner scan;
+	private char room[][];
+	private Scanner scanner;
 
-	public void initSeats(char[][] seats) {
-		this.seats = seats;
-		rowSize = seats.length;
-		colmSize = seats[0].length;
-		getInput();
-	}
+//	public void getRoom(char[][] room) {
+//		this.room = room;
+//		rowSize = room.length;
+//		colmSize = room[0].length;
+//		getInput();
+//	}
 
-	public void getInput() {
-		scan = new Scanner(System.in);
+	public void getInput(int rowSize, int colmSize) {
+		this.rowSize = rowSize;
+		this.colmSize = colmSize;
+		scanner = new Scanner(System.in);
 		try {
+			System.out.println("Enter the number of row:");
+			row = scanner.nextInt();
+			if (row < 1 | row > rowSize) {
+				System.err.println("rows range must between 1 to " + rowSize);
+				scanner.reset();
+				getInput(rowSize, colmSize);
+			} else {
+				while (true) {
+					scanner = new Scanner(System.in);
+					try {
+						System.out.println("Enter the number of seat ");
+						colm = scanner.nextInt();
+						if (colm < 1 || colm > colmSize) {
+							System.err.println("seats range must between 1 to " + colmSize);
+						} else {
+							break;
+						}
+					} catch (Exception e) {
+						System.err.println("Only 1 to " + colmSize + " input will be allowed");
+						scanner.reset();
+					}
 
-			System.out.println("Enter number of row:");
-			row = scan.nextInt();
-			System.out.println("Enter seat number in " + (row) + " row:");
-			colm = scan.nextInt();
-			if ((row < 1 || row > 10) || (colm < 1 || colm > 10)) {
-				System.err.println("row and seat should be till 1 to " + rowSize + " and " + colmSize);
-				System.out.println("Enter again");
-				scan.reset();
-				getInput();
-			} else
-				bookTicket();
+				}
+
+			}
 		} catch (Exception e) {
-			System.err.println("Only Integer Input Allowed");
-			System.out.println("Enter again");
-			scan.reset();
-			getInput();
+			System.err.println("Only 1 to " + rowSize + " input will be allowed");
+			scanner.reset();
+			getInput(rowSize, colmSize);
 		}
 
 	}
 
-	// getBooked(char[][] seats) will take array and booked the particular seat according the user input
-	// according the chosen seat will show ticket price
-	public void bookTicket() {
-		//inital comment
+	public void bookTicket(char[][] room) {
+		getInput(room.length, room[0].length);
 		int totalRoomSeats, firstHalfRow, priceLS60 = 10, priceGT60FirstHalf = 10, priceGT60SecondHalf = 8;
-
 		firstHalfRow = rowSize / 2;
 
 		totalRoomSeats = rowSize * colmSize;
 
-		if (seats[(row - 1)][(colm - 1)] == 'B') {
+		if (room[(row - 1)][(colm - 1)] == 'B') {
 			System.err.println("That ticket has already been purchased!");
-			scan.reset();
-			getInput();
+			scanner.reset();
+			getInput(rowSize, colmSize);
 		} else if (totalRoomSeats > 0 && totalRoomSeats < 60) {
 			ticketPrice = priceLS60;
 		} else if (row <= firstHalfRow) {
@@ -62,10 +73,8 @@ public class BookSeat {
 		} else {
 			ticketPrice = priceGT60SecondHalf;
 		}
-		seats[(row - 1)][(colm - 1)] = 'B';
-
+		room[(row - 1)][(colm - 1)] = 'B';
 		System.out.println("\nTicket Price:\n$" + ticketPrice);
-
 
 	}
 }
