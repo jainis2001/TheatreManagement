@@ -12,13 +12,15 @@ public class BookSeat{
 	// according the chosen seat will show ticket price
 	public void getBooked(char[][] seats)
 	{
-		int totalRoomSeats,firstHalfRow,priceLS60=10,priceGT60FirstHalf=10,priceGT60SecondHalf=8;
+		//inital comment
+
+		int totalRoomSeats, firstHalfRow, priceLS60 = 10, priceGT60FirstHalf = 10, priceGT60SecondHalf = 8;
 		Scanner scan = new Scanner(System.in);
-		try{
+		try {
 
 			System.out.println("Enter number of row:");
 			int row = scan.nextInt();
-			System.out.println("Enter seat number in "+(row)+" row:");
+			System.out.println("Enter seat number in " + (row) + " row:");
 			int colm = scan.nextInt();
 
 			rowSize=seats.length;
