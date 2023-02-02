@@ -1,6 +1,6 @@
 package com.brevitaz.Theatre;
 
-import static com.brevitaz.Theatre.Main.theatre;
+//import static com.brevitaz.Theatre.Main.theatre;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -8,12 +8,12 @@ import java.util.Scanner;
 public class Menu {
 
 	private int choice;
-	private final BookSeat book = new BookSeat();
+	private final Book book = new Book();
 
 	Statistics stat = new Statistics();
 
 	//menu() will allow you to take choice and get output according...
-	public void menu(char[][] room) {
+	public void menu(Theatre theatre) {
 		Scanner scanner = new Scanner(System.in);
 
 		do {
@@ -30,10 +30,10 @@ public class Menu {
 						break;
 					case 2:
 //						book.getInput(room.length,room[0].length);
-						book.bookTicket(room);
+						book.bookTicket(theatre);
 						break;
 					case 3:
-						stat.getStatisticDetailsOfRoom(room);
+						stat.getStatisticDetailsOfRoom(theatre);
 						break;
 					default:
 						System.err.println((choice != 0) ? "Invalid choice" : "");
@@ -41,7 +41,7 @@ public class Menu {
 			} catch (InputMismatchException i) {
 				System.err.println("Something Went Wrong!");
 				scanner.reset();
-				menu(room);
+				menu(theatre);
 			}
 
 		} while (choice != 0);

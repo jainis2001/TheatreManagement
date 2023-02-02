@@ -12,10 +12,10 @@ public class Statistics {
 	//getStatisticDetailsOfRoom(char[][] room) will call the all separates functions which performs separate activity's
 	// ex: count number of purchased tickets,percentage,income
 
-	public void getStatisticDetailsOfRoom(char[][] room) {
-		tempRoom = room;
-		rowCount = room.length;
-		colmCount = room[0].length;
+	public void getStatisticDetailsOfRoom(Theatre theatre) {
+		tempRoom = theatre.getRoom();
+		rowCount = tempRoom.length;
+		colmCount = tempRoom[0].length;
 		firstHalfRow = rowCount / 2;
 		totalRoomSeats = rowCount * colmCount;
 

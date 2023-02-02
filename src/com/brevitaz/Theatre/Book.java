@@ -2,7 +2,7 @@ package com.brevitaz.Theatre;
 
 import java.util.Scanner;
 
-public class BookSeat {
+public class Book {
 	private int rowSize;
 	private int colmSize;
 	private int ticketPrice;
@@ -21,45 +21,49 @@ public class BookSeat {
 		this.rowSize = rowSize;
 		this.colmSize = colmSize;
 		scanner = new Scanner(System.in);
-		try {
-			System.out.println("Enter the number of row:");
-			row = scanner.nextInt();
-			if (row < 1 | row > rowSize) {
-				System.err.println("rows range must between 1 to " + rowSize);
+		while (true) {
+			try {
+
+				System.out.println("Enter the number of row:");
+				row = scanner.nextInt();
+				if (row < 1 | row > rowSize) {
+					System.err.println("rows range must between 1 to " + rowSize);
+					continue;
+				}
+			} catch (Exception e) {
+				System.err.println("Only 1 to " + rowSize + " input will be allowed");
 				scanner.reset();
 				getInput(rowSize, colmSize);
-			} else {
-				while (true) {
-					scanner = new Scanner(System.in);
-					try {
-						System.out.println("Enter the number of seat ");
-						colm = scanner.nextInt();
-						if (colm < 1 || colm > colmSize) {
-							System.err.println("seats range must between 1 to " + colmSize);
-						} else {
-							break;
-						}
-					} catch (Exception e) {
-						System.err.println("Only 1 to " + colmSize + " input will be allowed");
-						scanner.reset();
-					}
-
-				}
-
 			}
-		} catch (Exception e) {
-			System.err.println("Only 1 to " + rowSize + " input will be allowed");
-			scanner.reset();
-			getInput(rowSize, colmSize);
+			break;
 		}
+
+		while (true) {
+
+			try {
+				scanner = new Scanner(System.in);
+				System.out.println("Enter the number of seat ");
+				colm = scanner.nextInt();
+				if (colm < 1 || colm > colmSize) {
+					System.err.println("seats range must between 1 to " + colmSize);
+					continue;
+				}
+			} catch (Exception e) {
+				System.err.println("Only 1 to " + colmSize + " input will be allowed");
+				scanner.reset();
+				continue;
+			}
+			break;
+		}
+
 
 	}
 
-	public void bookTicket(char[][] room) {
-		getInput(room.length, room[0].length);
+	public void bookTicket(Theatre theatre) {
+		getInput(theatre.getRoom().length, theatre.getRoom()[0].length);
+		room = theatre.getRoom();
 		int totalRoomSeats, firstHalfRow, priceLS60 = 10, priceGT60FirstHalf = 10, priceGT60SecondHalf = 8;
 		firstHalfRow = rowSize / 2;
-
 		totalRoomSeats = rowSize * colmSize;
 
 		if (room[(row - 1)][(colm - 1)] == 'B') {

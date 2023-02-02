@@ -1,9 +1,9 @@
 package com.brevitaz.Theatre;
 
 import java.util.Scanner;
-public class TheatreManagement {
+public class Theatre {
 	private char[][] room;
-	private int rowSize,colmSize,row,colm;
+	private int rowSize, colmSize, row, colm;
 	private Scanner scanner;
 
 	public char[][] getRoom() {
